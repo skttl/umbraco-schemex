@@ -1,0 +1,20 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json", 
+    "AuthorDetails": {
+      "Name": "Søren Kottal",
+      "ImageUrl": "https://github.com/skttl.png"
+    },
+    "Category": "Themes & Starter Kits",
+    "Description": "Exports all project schema and nodes as package.xml on the fly",
+    "LicenseTypes": [ "Free" ],
+    "IssueTrackerUrl": "https://github.com/skttl/umbraco-schemex/issues",
+    "PackageType": "Package",
+    "RelatedPackages": [
+      {
+        "PackageId": "Umbraco.Community.Schemex.Importer",
+        "Description": "Schema exporter for Umbraco"
+      }
+    ],
+    "Tags": [],
+    "Title": "Schemex Exporter"
+  }
