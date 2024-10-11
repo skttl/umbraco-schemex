@@ -9,6 +9,16 @@
     "LicenseTypes": [ "Free" ],
     "IssueTrackerUrl": "https://github.com/skttl/umbraco-schemex/issues",
     "PackageType": "Package",
+    "RelatedPackages": [
+      {
+        "PackageId": "Umbraco.Community.Schemex.Exporter",
+        "Description": "Schema exporter for Umbraco"
+      },
+      {
+        "PackageId": "Umbraco.Community.Schemex.Importer",
+        "Description": "Schema exporter for Umbraco"
+      }
+    ],
     "Tags": [],
     "Title": "Schemex"
   }

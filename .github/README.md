@@ -31,3 +31,4 @@ Contributions to this package are most welcome! Please read the [Contributing Gu
 
 [Lotte Pitcher](https://github.com/lottepitcher) - for the [opinionated-package-starter](https://github.com/LottePitcher/opinionated-package-starter), you can create an Umbraoc package in 5 minutes with this!
 [Heather Floyd](https://github.com/hfloyd) - for the [Dragonfly Schema Importer](https://github.com/hfloyd/Dragonfly.Umbraco10.SchemaImporter) package, which was a huge inspiration for this.
+[Dan's](https://thenounproject.com/creator/danangherkamdi/) - for the icons
