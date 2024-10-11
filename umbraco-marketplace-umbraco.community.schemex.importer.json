@@ -16,5 +16,6 @@
       }
     ],
     "Tags": [],
-    "Title": "Schemex Importer"
+    "Title": "Schemex Importer",
+    "VersionDependencyMode": "SemVer"
   }

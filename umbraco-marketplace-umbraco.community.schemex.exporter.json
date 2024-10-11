@@ -16,5 +16,6 @@
       }
     ],
     "Tags": [],
-    "Title": "Schemex Exporter"
+    "Title": "Schemex Exporter",
+    "VersionDependencyMode": "SemVer"
   }
