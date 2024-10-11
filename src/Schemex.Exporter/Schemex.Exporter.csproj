@@ -12,7 +12,7 @@
     <PackageTags>umbraco;umbraco-marketplace</PackageTags>
     <RootNamespace>Umbraco.Community.Schemex.Exporter</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.1.0</Version>
+    <Version>1.0.0-beta001</Version>
     <Authors>Søren Kottal</Authors>
     <Copyright>$([System.DateTime]::UtcNow.ToString(`yyyy`)) © Søren Kottal</Copyright>
     <PackageProjectUrl>https://github.com/skttl/umbraco-schemex</PackageProjectUrl>
