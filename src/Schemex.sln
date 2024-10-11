@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33020.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73188964-91D5-447B-8E13-D0C6D2F3D3AF}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+		..\.github\README.md = ..\.github\README.md
+		..\umbraco-marketplace.json = ..\umbraco-marketplace.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schemex.Exporter", "Schemex.Exporter\Schemex.Exporter.csproj", "{C5D57897-3509-4221-9F1E-5DD542579637}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schemex.Exporter.TestSite", "Schemex.Exporter.TestSite\Schemex.Exporter.TestSite.csproj", "{D34BD4D2-CAAC-4ECE-B16A-E4006CEB5725}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schemex.Importer", "Schemex.Importer\Schemex.Importer.csproj", "{71d17091-4e0c-40fc-afbc-dcf5fc860119}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schemex.Importer.TestSite", "Schemex.Importer.TestSite\Schemex.Importer.TestSite.csproj", "{a66ec002-e492-4a1e-9d12-d67915471ccc}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5D57897-3509-4221-9F1E-5DD542579637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D57897-3509-4221-9F1E-5DD542579637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D57897-3509-4221-9F1E-5DD542579637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D57897-3509-4221-9F1E-5DD542579637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71d17091-4e0c-40fc-afbc-dcf5fc860119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71d17091-4e0c-40fc-afbc-dcf5fc860119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71d17091-4e0c-40fc-afbc-dcf5fc860119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71d17091-4e0c-40fc-afbc-dcf5fc860119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34BD4D2-CAAC-4ECE-B16A-E4006CEB5725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34BD4D2-CAAC-4ECE-B16A-E4006CEB5725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34BD4D2-CAAC-4ECE-B16A-E4006CEB5725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34BD4D2-CAAC-4ECE-B16A-E4006CEB5725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{a66ec002-e492-4a1e-9d12-d67915471ccc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a66ec002-e492-4a1e-9d12-d67915471ccc}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a66ec002-e492-4a1e-9d12-d67915471ccc}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{a66ec002-e492-4a1e-9d12-d67915471ccc}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F07004F-9903-4AEB-9ED0-BE57A0326D20}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json", 
+    "AuthorDetails": {
+      "Name": "Søren Kottal",
+      "ImageUrl": "https://github.com/skttl.png"
+    },
+    "Category": "Themes & Starter Kits",
+    "Description": "Schema exporter and importer for Umbraco",
+    "LicenseTypes": [ "Free" ],
+    "IssueTrackerUrl": "https://github.com/skttl/umbraco-schemex/issues",
+    "PackageType": "Package",
+    "Tags": [],
+    "Title": "Schemex"
+  }
