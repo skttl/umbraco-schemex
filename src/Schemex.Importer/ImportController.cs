@@ -1,4 +1,5 @@
 using System.Xml.Linq;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Umbraco.Cms.Core.Services;
 using Umbraco.Cms.Web.Common.Attributes;
@@ -13,17 +14,23 @@ public class ImportController : UmbracoApiController
     private readonly IPackagingService _packagingService;
     private readonly IHttpClientFactory _httpClientFactory;
     private readonly IContentTypeService _contentTypeService;
+    private readonly IWebHostEnvironment _webHostEnvironment;
 
-    public ImportController(IPackagingService packagingService, IHttpClientFactory httpClientFactory, IContentTypeService contentTypeService)
+    public ImportController(IPackagingService packagingService, IHttpClientFactory httpClientFactory, IContentTypeService contentTypeService, IWebHostEnvironment webHostEnvironment)
     {
         _packagingService = packagingService;
         _httpClientFactory = httpClientFactory;
         _contentTypeService = contentTypeService;
+        _webHostEnvironment = webHostEnvironment;
     }
 
     [HttpGet]
     public async Task<IActionResult> Push(string source, bool force = false)
     {
+        if (_webHostEnvironment.EnvironmentName != "Development") {
+            return NotFound();
+        }
+
         if (force == false && _contentTypeService.GetAll().Any())
         {
             throw new Exception("This project already has Content Types - to continue add &force=true to the url");
