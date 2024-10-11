@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\docs\README_nuget.md">
+    <None Include="..\..\docs\Importer\README_nuget.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
